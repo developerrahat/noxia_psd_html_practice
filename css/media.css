@@ -1,0 +1,235 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .default-title h1 {
+        font-size:25px;
+       
+    }
+    .h-title h1 {
+        font-size: 25px;
+    }
+    .default-title p {
+        font-size:14px;
+       
+    }
+
+    .th-left ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .th-left ul li a {
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .th-right{
+        text-align: center !important;
+    }
+    .th-right ul li a {
+        margin: 0 4px;
+    }
+    /* main header media css */
+    .main-header{
+        background: rgba(25, 14, 112, .7);   
+     }
+    /* banner media css */
+    .banner {
+        padding: 180px 0 20px;
+    }
+    .slider-text{
+        margin-bottom:30px;
+    }
+    .slider-text h1 {
+        font-size: 33px;
+    }
+    .slider-text p {
+        font-size: 17px;
+    }
+    .cstm-btn {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+      /* welcome media css start */
+      .office-welcome{
+        padding: 50px 0;
+    }
+    /* welcome media css end */
+     /* counter sec media css */
+     .counter-top-caption {
+        margin: 70px 0;
+    }
+     .counter-items{
+         text-align: center;
+     }
+     .counter-bottom{
+        padding:50px 0;
+    }
+    .counter-top-caption h1 {
+        font-size: 26px;
+    }
+     /* creative media css start */
+     .default-title{
+        margin-top:0;
+    }
+    .creative-sec{
+        padding: 50px 0;
+    }
+    /* creative media css end */
+    /* highlight media css start */
+    .highlight{
+        padding: 50px 0;
+    }
+    .h-inner-text h2 {
+        font-size: 30px;
+    }
+    .h-inner-text p {
+        font-size: 14px !important;
+    }
+    /* highlight media css end */
+    /* pricing media css start */
+    .pricing-section{
+        padding: 50px 0;
+
+    }
+    /* pricing media css end */
+    /* team sec media css start */
+    .inner-text{
+        margin-top:10px;
+      }
+    .inner-text h2{
+        font-size: 20px;
+    }
+    .inner-text span{
+        font-size:14px;
+    }
+    /* team sec media css end */
+    /* newslatter media css start */
+    .newslatter{
+        padding-top: 0;
+        padding-bottom: 40px;
+        background: #f2f2f2;
+    }
+    /* newslatter media css end */
+    /* testimonial media css start */
+    .testimonial{
+        padding: 40px 0;
+    }
+    /* testimonial media css end */
+    /* brand img media css start */
+    .brand{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    /* brand img media css end */
+     /* footer media css start */
+     .footer-top{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer-top-text p{
+        font-size: 14px;
+    
+    }
+    /* footer media css end */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .th-right ul li a {
+        margin: 0 5px;
+    }
+    .th-left ul li a {
+        margin-right: 12px;
+    }
+     /* main header media css */
+     .main-header{
+        background: rgba(25, 14, 112, .6);   
+     }
+    /* banner css */
+    .slider-text h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+     /* creative media css start */
+     .default-title{
+        margin-top:0;
+    }
+       /* counter sec media css */
+       .counter-top-caption {
+        margin: 70px 0;
+    }
+    /* creative media css end */
+    /* pricing css media */
+    .pricing-item .card {
+        padding: 30px 12px;
+    }
+    .p-inner h2 {
+        margin: 15px 0;
+        font-size: 50px;
+    }
+    /* newslatter media css start */
+    .newslatter{
+        padding-top: 0;
+        padding-bottom: 60px;
+        background: #f2f2f2;
+    }
+    /* newslatter media css end */
+    /* footer media css start */
+    .footer-top{
+        padding-top: 40px;
+        padding-bottom:25px;
+    }
+    /* footer media css end */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .th-left ul li a {
+        margin-right: 35px;
+    }
+    .th-right ul li a {
+        margin: 0 5px; 
+    }
+     /* main header media css */
+     .main-header{
+        background: rgba(25, 14, 112, .5);   
+     }
+    /* welcome media css start */
+    .office-item {
+        padding: 50px 30px;
+        
+    }
+    /* welcome media css end */
+    /* counter sec media css */
+   
+    /* creative media css start */
+    .default-title{
+        margin-top:0;
+    }
+    /* creative media css end */
+
+    /* footer media css start */
+    .footer-top{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    /* footer media css end */
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   /* slider media css start */
+   .slider-text h1 {
+    font-size:60px;
+    
+}
+   /* slider media css end */
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

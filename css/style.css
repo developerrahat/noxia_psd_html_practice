@@ -1,0 +1,487 @@
+/* common css start */
+body, h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+body,p,span{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+img{
+   max-width: 100%;
+}
+/* common css end */
+.header{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+}
+.top-header{
+    background: rgba(23, 13, 99, .2);
+    padding:10px 0;
+    border-bottom: 1px solid #838383;   
+}
+.th-left ul li a{
+    color: #ffffff;
+    margin-right: 80px;
+    opacity: .6;
+    transition: .4s;
+}
+.th-left ul li a:hover{
+    opacity: 1;
+}
+.th-right ul li a{
+    color: #ffffff;
+    margin: 0 10px;
+    opacity: .6;
+    transition: .4s;
+}
+.th-right ul li a:hover{
+    opacity:1;
+}
+
+/* main header css start */
+.main-header{
+   background: rgba(25, 14, 112, .3);
+    padding: 10px 0;    
+}
+
+.main-menu ul li a{
+    margin: 0 15px;
+    color: #ffffff !important;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s;
+}
+.main-menu ul li:last-child a{
+    margin-right: 0;
+    padding-right: 0 !important;
+}
+.main-menu ul li a:hover{
+    color: #ee3364 !important;
+}
+/* main header css end */
+
+/* banner css start */
+.banner{
+    background: url(../imgs/02_noxia_home_1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0 20px;
+}
+.slider-text h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.slider-text p{
+    color: white;
+    font-size: 20px;
+}
+.cstm-btn{
+    padding: 14px 25px;
+    background:#ee3364 !important;
+    color: white !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    transition: .4s;
+}
+.cstm-btn:hover{
+    background:#2d18ae !important;
+    box-shadow: 0 0 10px 2px rgba(3, 2, 2, .4);
+}
+/* welcome css start */
+.office-welcome{
+    padding: 80px 0;
+}
+.default-title h1 {
+    font-size: 41px;
+    color: #000000;
+    font-weight: 700;
+}
+.office-item{
+    margin-top: 50px;
+    background: #edf7ff;
+    padding: 50px 30px;
+    border: 2px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+.office-item:hover{
+    box-shadow: 3px 3px 15px 1px rgba(2, 2, 15, .4);
+    background: white;
+    border: 2px solid #ee3364;
+    transform: translateY(10px);
+}
+.office-item:hover .icon i{
+    background: #ee3364;
+    color: white;
+}
+.icon i{
+    width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: white;
+    font-size: 36px;
+    color: black;
+    border-radius: 50%;
+    transition: .4s;
+}
+.text h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+.text p{
+    color: #838383;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.load-more-btn{
+    margin-top:80px;
+}
+/* welcome css end */
+
+/* skiss css start */
+.skills{
+    padding: 80PX 0;
+    background: #edf7ff;
+}
+.skill-left{}
+.skill-left span{
+    font-weight: 700;
+}
+.progess-skill h5{
+    color: #373737;
+    font-size: 16px !important;
+    font-weight: 400;
+}
+/* counter css start */
+.counter-top-img{
+    background: url(../imgs/c-bannwer.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+}
+.counter-items{
+    margin-top: 25px;
+}
+.counter-top-img::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: -9;
+}
+.c-icon i{
+    background: #ee3364;
+    font-size:40px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.counter-top-caption{
+    color: #ffffff;
+    margin: 200px 0;
+}
+.counter-top-caption h1 {
+	font-weight: 700;
+	font-size: 35px;
+}
+.counter-top-caption p{
+    margin:20px 0;
+}
+
+.counter-bottom{
+    background: black;
+    padding:80px 0;
+}
+.c-icon2{
+    font-size: 50px;
+    color: #ee3364;
+}
+.c2-text h1{
+    font-size:45px;
+    color: wheat;
+    font-weight: 700;
+}
+.c2-text h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* counter css end */
+
+/* creative css start */
+.creative-sec{
+    padding: 80px 0;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.list-timeline ul li{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+.list-timeline ul li::before{
+    content:"\f058 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ee3364;
+    margin-right: 15px;
+}
+
+/* highlight css start*/
+.highlight{
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+.h-title h6{
+    color: #ee3364;
+}
+.h-title h1 {
+	font-size: 35px;
+}
+.h-items{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.h-img:hover .h-inner-box{
+    visibility: visible;
+    opacity: 1;
+}
+.h-inner-box{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.h-inner-text{
+   margin-top:30%;
+   padding: 30px;
+}
+.h-inner-text h2{
+    font-size: 40px;
+    color: white !important;
+}
+.h-inner-text p{
+    color: white;
+    font-size:16px !important;
+    font-weight: 400;
+}
+.d-paragraph{
+    font-weight: 400;
+    color: #ee3364 !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+}
+
+/* pricing css start */
+.pricing-section{
+    padding: 80px 0;
+
+}
+.pricing-item{
+    margin-top: 30px;
+    background: url(../imgs/p-bg.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .4S;
+    cursor: pointer;
+}
+.pricing-item .card{
+    padding: 55px 60px;
+    border: 1px solid #ee3364;
+}
+.pricing-item:hover .card{
+    background:none;
+}
+.pricing-item:hover{
+    color: white !important;
+}
+.pricing-item:hover .p-text{
+    color: white !important;
+}
+.pricing-item:hover P{
+    color: white !important;
+}
+.p-inner h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.p-inner h2{
+    margin:30px 0;
+    font-size:50px;
+}
+.p-inner span{
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.p-inner p{
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #5c5c5c;
+    font-weight: 400;
+    transition: .4S;
+}
+.p-text{
+    font-size: 12px !important;
+    text-transform: uppercase;
+    transition: .4S;
+}
+.p-btn{
+    padding: 10px 20px;
+    background: #000000 !important;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.pricing-item:hover .p-btn{
+    background: transparent !important;
+    border: 1px solid white;
+}
+/* pricing css end */
+
+/* team section css start */
+.team-section{}
+.team-item{
+    position: relative;
+    margin-top: 30px;
+}
+.team-item img{}
+.img-inner{
+    color: white;
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(238, 50, 100, .7);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.team-item:hover .img-inner{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+.inner-text{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+}
+.inner-text h2{
+    font-size: 26px;
+}
+.inner-text span{
+    font-size:16px;
+    font-weight: 400;
+    color: black;
+}
+/* team section css end */
+.newslatter{
+    padding: 80px 0;
+    background: #f2f2f2;
+}
+.newslatter-right span{
+    color: #ee3364;
+    font-weight: 700;
+}
+/* newslatter css start */
+
+
+/*  testimonial css start */
+.testimonial{
+    padding: 80px 0;
+}
+.c-text h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.c-text span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ee3364;
+}
+.c-text p{
+    font-size: 15px;
+    color: #8d8d8d;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.test-indicator {
+	bottom: -60px;
+}
+.test-indicator [data-bs-target] {
+	width: 15px;
+	height: 15px;
+    border-radius: 50%;
+	background-color: #000000;
+}
+/*  testimonial css end */
+
+/* brand sec css start */
+.brand{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.b-img{
+    margin-top: 30px;
+}
+/* brand sec css end */
+
+/* footer css start */
+/* footer top css start */
+.footer-top{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #282828;
+}
+.footer-top-text p{
+    margin: 20px 0;
+    color: #a5a5a5;
+    font-weight: 400;
+
+}
+.f-top-social ul li a{
+    margin: 0 6px;
+    color: #ee3364;
+    transition: .4s;
+}
+.f-top-social ul li a:hover{
+    color: white;
+}
+/* footer top css end */
+/* footer top css */
+.footer-bottom{
+    background: #000000;
+    padding: 20px 0;
+}
+.fb-text p{
+    font-weight: 400;
+    font-size: 14px;
+}
+/* footer css end */
+
